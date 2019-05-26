@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1007160017646",
+    "firebase_url": "https://mundart-3eccd.firebaseio.com",
+    "project_id": "mundart-3eccd",
+    "storage_bucket": "mundart-3eccd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007160017646:android:1cd488518dfd8097",
+        "android_client_info": {
+          "package_name": "xyz.swissmade.mundart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007160017646-mbq55gajkj38iejikt02f96phlasarai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb_j16iGBKgzTA8i8Mg8Z6Dg7RaKV1Nsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007160017646-mbq55gajkj38iejikt02f96phlasarai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
