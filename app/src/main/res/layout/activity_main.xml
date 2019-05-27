@@ -40,28 +40,10 @@
             android:layout_width="280dp"
             android:layout_height="280dp" tools:layout_editor_absoluteY="0dp" tools:layout_editor_absoluteX="0dp"
             android:id="@+id/teich">
-        <!--br.com.netodevel.circle_video_record.CircleVideoRecord
-                android:id="@+id/circle_video_record"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                app:circle_width="280dp"
-                app:circle_height="280dp"
-                app:record_time="10000"
-                app:play_button_image="@drawable/ic_play_circle"
-                app:close_button_image="@drawable/ic_stop"
-                app:max_time_message="Max time!!">
-        </br.com.netodevel.circle_video_record.CircleVideoRecord-->
-        <com.camerakit.CameraKitView
-                android:id="@+id/camera"
+        <io.fotoapparat.view.CameraView
+                android:id="@+id/camera_view"
                 android:layout_width="280dp"
-                android:layout_height="280dp"
-                android:adjustViewBounds="true"
-                android:keepScreenOn="true"
-                app:camera_flash="auto"
-                app:camera_facing="front"
-                app:camera_focus="continuous"
-                app:camera_permissions="camera"/>
+                android:layout_height="280dp"/>
         <Button
                 android:text="Record"
                 android:layout_width="wrap_content"
